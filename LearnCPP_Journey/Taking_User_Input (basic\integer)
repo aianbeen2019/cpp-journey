@@ -2,14 +2,11 @@
 
 #include <iostream>
 
-int x()
-{
-  std::cin >> x;
 
-  return 0;
-} 
 int main()
 {
+  int x;
+
   std::cout << "Enter a number, 0-9." << '\n';
 
   std::cin >> x;
