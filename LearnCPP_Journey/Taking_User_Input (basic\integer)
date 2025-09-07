@@ -1,0 +1,18 @@
+//Taking user input, and printing to console.
+
+#include <iostream>
+
+int x()
+{
+  std::cin >> x;
+
+  return 0;
+} 
+int main()
+{
+  std::cout << "Enter a number, 0-9." << '\n';
+
+  std::cin >> x;
+  std::cout << "You entered " << x << '\n';
+  return 0;
+}
