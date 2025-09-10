@@ -19,7 +19,7 @@ constexpr int calculateAttackPower(int strength, int dexterity) {
   return (strength * 2) + (dexterity / 2);
 }
 
- //string_view use, to print folowing data to save on memory heap
+ //string_view use, to print following data to save on memory heap
   void printCharacterSheet(std::string_view playerName, int attackPower, int baseHealth, int baseMana){
     std::cout << "\n---Character Sheet---\n\n";
     std::cout << "Hero: " << playerName << '\n';
